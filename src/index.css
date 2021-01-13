@@ -15,4 +15,8 @@ body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: turquoise;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 2rem;
 }

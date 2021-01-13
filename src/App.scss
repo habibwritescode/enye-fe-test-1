@@ -1,0 +1,29 @@
+/*Start of  Utility styles */
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem;
+}
+
+.u-margin-bottom-medium {
+  margin-bottom: 2rem;
+}
+
+.u-margin-bottom-large {
+  margin-bottom: 3rem;
+}
+/* End of Utility styles */
+
+.header-text {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: center;
+
+  @media only screen and(max-width: 25em) {
+    width: 70%;
+    margin: 0 auto 2rem;
+    flex-direction: column;
+  }
+}
