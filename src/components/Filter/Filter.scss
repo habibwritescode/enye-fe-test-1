@@ -1,0 +1,17 @@
+.filter {
+  padding: 0.5rem;
+  border: none;
+  background-color: #fff;
+  font-family: inherit;
+
+  &:not(:last-child) {
+    margin-right: 1.5rem;
+  }
+
+  @media only screen and(max-width: 25em) {
+    
+    &:not(:last-child) {
+      margin-bottom: 1.5rem;
+    }
+  }
+}
