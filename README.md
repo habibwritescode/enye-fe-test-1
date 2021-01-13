@@ -1,3 +1,3 @@
-# Test for enye.tech FE test 1
+# Enye FE test 1
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
