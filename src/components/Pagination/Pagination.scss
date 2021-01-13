@@ -1,0 +1,31 @@
+.page-list{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  font-size: 1.3rem;
+
+  & a:link,
+  a:visited{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+  }
+
+  & a:hover,
+  a:active{
+    color: chocolate;
+    background-color: #fff;
+  }
+}
+
+.page-item{
+  border: 1px solid #fff;
+  // padding: 1rem;
+}
+
+.current-link{
+  background-color: #fff;
+}
