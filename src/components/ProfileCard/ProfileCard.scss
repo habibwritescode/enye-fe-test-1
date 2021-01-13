@@ -1,0 +1,22 @@
+.profile-card{
+  background-color: #fff;
+  border-radius: 2px;
+  padding: 1rem;
+  list-style: none;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.25);
+  transition: all .3s;
+  font-size: 1.3rem;
+  // flex: 0 1 25%;
+
+  &:hover{
+    transform: scale(1.05);
+  }
+
+  &:not(:last-child){
+    margin-right: 2rem;
+  }
+
+  & p:not(:last-child){
+    margin-bottom: 1rem;
+  }
+}
