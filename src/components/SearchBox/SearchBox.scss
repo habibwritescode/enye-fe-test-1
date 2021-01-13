@@ -1,0 +1,18 @@
+.input-container{
+  display: flex;
+  justify-content: center;
+  width: 50vw;
+  margin: 0 auto 2rem;
+}
+
+.input{
+  padding: 1rem;
+  width: 80%;
+  border: none;
+  transition: all .2s;
+
+  &:focus{
+    outline: none;
+    width: 100%;
+  }
+}
