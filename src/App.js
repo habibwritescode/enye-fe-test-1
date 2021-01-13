@@ -20,7 +20,7 @@ function App() {
   useEffect(() => {
     const fetchProfiles = async () => {
       setLoading(true)
-      const res = await fetch(`http://api.enye.tech/v1/challenge/records`);
+      const res = await fetch(`https://api.enye.tech/v1/challenge/records`);
       const jsonResponse = await res.json();
       setFetchedProfiles(jsonResponse.records.profiles);
       setLoading(false);
